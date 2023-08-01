@@ -1,0 +1,286 @@
+body {
+    background-color: darksalmon;
+    margin-top: 0px;
+    background-image: url(./Assets/Images/author-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+    background-size: 1200px;
+    background-position-x: 300px;
+    background-position-y: 0px;
+    margin: 0%;
+
+}
+
+.bar {
+    /* width: 1250px;
+color: darkolivegreen;
+border-style: solid;
+border-color: darkolivegreen; */
+    /* position: relative;
+background-color: darkolivegreen;
+padding: 0px;
+margin-top: 0px;
+padding: 0px; */
+}
+
+a {
+
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color: rgb(30, 79, 122);
+    display: inline-block;
+
+    text-align: left;
+    margin: 0px;
+    position: sticky;
+    text-decoration: none;
+
+}
+
+img {
+    margin: 0px;
+    padding: 0px;
+    width: 220px;
+    height: 120px;
+    display: inline-flex;
+    vertical-align: middle;
+
+}
+
+.img1:hover {
+    rotate: -350deg;
+    transform: all 0.7s;
+
+}
+
+a:hover {
+    border-radius: 70px;
+    border-color: darkolivegreen;
+    border-style: solid;
+    border-inline-color: darkolivegreen;
+    background-color: darkolivegreen;
+    color: azure;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.login {
+
+    border-radius: 10px;
+    background-color: darkolivegreen;
+    color: azure;
+}
+
+.login:hover {
+    border-color: darkslateblue;
+    background-color: darkslateblue;
+}
+
+.box {
+
+    width: 900px;
+    margin-top: 20px;
+    padding: 0%;
+    text-shadow: 1px 1px rgb(14, 11, 1);
+    /* text-align: justify; */
+    border-radius: 15px;
+    background-color: black;
+    word-spacing: normal;
+
+    flex-direction: row;
+    padding: 0%;
+    justify-content: space-around;
+    align-content: space-between;
+    padding-left: 20px;
+
+}
+
+span {
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    color: azure;
+}
+
+.span:hover {
+    border: 2px solid black;
+    border-radius: 2px;
+    color: rgb(2, 7, 7);
+
+
+}
+
+.slider {
+    /* border: 2px solid black; */
+    width: 500px;
+
+    height: 500px;
+
+}
+
+.main {
+    padding: 0%;
+    background-color: rgb(8, 10, 3);
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin-top: 700px;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    overflow: visible;
+}
+
+hr {
+
+    border-top: 3px solid;
+    border-color: darkslateblue;
+
+}
+
+.pic {
+    vertical-align: bottom;
+}
+
+.slider:hover {
+    border-color: darkgrey;
+}
+
+.main1 {
+    width: 100%px;
+    height: 500px;
+    border: 2px solid black;
+    /* background-image: url(./Assets/Images/pexels-christina-morillo-1181605.jpg); */
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: rgb(0, 0, 0);
+    padding: 0%;
+    justify-content: flex-start;
+
+
+
+
+}
+
+.main1-span {
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: azure; */
+    width: 50%;
+    font-size: 30px;
+    margin-top: 100px;
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: x-large;
+}
+
+p {
+    color: azure;
+    font-size: x-large;
+    text-shadow: cornsilk;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box:hover {
+    border-radius: 15px;
+    background-color: black;
+}
+
+.GetStarted {
+    
+    padding-top: 5%;
+    width: 100%;
+    height: 700px;
+    border: 2px solid black;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+}
+
+.get {
+
+    /* text-align: right; */
+    font-size: 50px;
+    color: azure;
+    padding-top: 20px;
+    padding-left: 60%;
+
+
+}
+
+.get1 {
+    font-size: 30px;
+    font-family: 'PT Serif', serif;
+
+}
+
+.get2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    ;
+}
+
+.started1 {
+    padding-top: 30px;
+}
+
+.started2 {
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 70px;
+}
+
+.AboutUs {
+
+    width: 100%;
+    background-color: black;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+}
+
+.heading {
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    color: azure;
+    padding-top: 20px;
+    padding-left: 70%;
+}
+
+.us1 {
+    width: 60%;
+}
+
+.us2 {
+    width: 40%;
+    margin-top: 5%;
+
+}
+
+.text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    border: 3px solid azure;
+    background-color: darkolivegreen;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.foot{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    color: azure;
+}
+.span3{
+    font-size: x-large;
+   padding-top: 100%;
+}
